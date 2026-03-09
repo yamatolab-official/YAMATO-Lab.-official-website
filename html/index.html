@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAMATO Lab. Official Site</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #002f4b;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        header img {
+            max-width: 250px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 1.8em;
+            margin-bottom: 40px;
+        }
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            max-width: 300px;
+            text-align: center;
+        }
+        .card img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        .card p {
+            font-size: 1em;
+            margin-bottom: 20px;
+        }
+        .card a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background-color: #007acc;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+        .card a:hover {
+            background-color: #005a99;
+        }
+        footer {
+            background-color: #002f4b;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ヘッダー -->
+    <header>
+        <img src="logo.png" alt="YAMATO Lab. Logo">
+        <h1>YAMATO Lab.</h1>
+        <p>日本の科学を前へ、世界との架け橋へ。</p>
+    </header>
+
+    <!-- 活動紹介 -->
+    <section class="section">
+        <h2>活動紹介</h2>
+        <div class="cards">
+            <!-- Newsカード -->
+            <div class="card">
+                <img src="news-logo.png" alt="YAMATO Lab. News Logo">
+                <p>海外の科学に関する最新研究や最新技術を発信</p>
+                <a href="https://x.com/YAMATO_Lab_N" target="_blank">詳しく見る</a>
+            </div>
+
+            <!-- Academyカード -->
+            <div class="card">
+                <img src="academy-logo.png" alt="YAMATO Lab. Academy Logo">
+                <p>高校生・高専生向けに、化学をYouTubeでわかりやすく解説</p>
+                <a href="#">準備中</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer>
+        <p>連絡先: 準備中</p>
+        <p>© 2026 YAMATO Lab. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
